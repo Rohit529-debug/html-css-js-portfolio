@@ -380,6 +380,27 @@ article .icon {
     border-color: rgb(163, 163, 163);
 }
 
+/* Apply this to the parent section or container */
+#projects {
+    display: flex;
+    flex-direction: column;
+    /* Align items in a column */
+    align-items: center;
+    /* Center horizontally */
+    justify-content: center;
+    /* Center vertically if needed */
+    min-height: 100vh;
+    /* Adjust based on your layout */
+}
+
+.more-projects-container {
+    /* margin-top: 100px; */
+    display: flex;
+    justify-content: center;
+    /* Centers content horizontally */
+}
+
+
 /* CONTACT */
 
 #contact {
